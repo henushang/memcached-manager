@@ -5,11 +5,6 @@ var _ = require('lodash');
 
 var mc = require('./client');
 
-/* GET users listing. */
-router.get('/', function(req, res) {
-  res.send('welcome to memcached homepage' + '  ' + _.isNull(''));
-});
-
 /**
  * 配置memcached服务器的信息
  */
